@@ -5,6 +5,12 @@ spring:
   profiles:
     active: local
 
+  data:
+    web:
+      pageable:
+        one-indexed-parameters: true
+        default-page-size: 5
+
   jpa:
     show-sql: true
     properties:
